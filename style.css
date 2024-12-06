@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcc00;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav a {
+    color: #333;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #ff8c00;
+}
+
+.cart-btn {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cart-btn:hover {
+    background-color: #e67e00;
+}
+
+.banner {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(120deg, #ffcc00, #ff8c00);
+    color: white;
+}
+
+.banner .btn {
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    background-color: white;
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.banner .btn:hover {
+    background-color: #f1f1f1;
+}
+
+.products {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.product {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ffcc00;
+}
+
+.product h3 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.product button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1.5rem;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #ff8c00;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ffcc00;
+    margin-top: 2rem;
+}
