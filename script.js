@@ -1,9 +1,9 @@
 const products = [
-    { id: 1, name: "Wireless Earbuds", image: "https://via.placeholder.com/250", price: "$50" },
-    { id: 2, name: "Smart Watch", image: "https://via.placeholder.com/250", price: "$100" },
-    { id: 3, name: "Bluetooth Speaker", image: "https://via.placeholder.com/250", price: "$30" },
-    { id: 4, name: "Gaming Mouse", image: "https://via.placeholder.com/250", price: "$25" },
-    { id: 5, name: "4K Monitor", image: "https://via.placeholder.com/250", price: "$200" },
+    { id: 1, name: "Wireless Earbuds", image: "https://dummyimage.com/sqrpop", price: "$50" },
+    { id: 2, name: "Smart Watch", image: "https://dummyimage.com/sqrpop", price: "$100" },
+    { id: 3, name: "Bluetooth Speaker", image: "https://dummyimage.com/sqrpop", price: "$30" },
+    { id: 4, name: "Gaming Mouse", image: "https://dummyimage.com/sqrpop", price: "$25" },
+    { id: 5, name: "4K Monitor", image: "https://dummyimage.com/sqrpop", price: "$200" },
 ];
 
 let cartCount = 0;
